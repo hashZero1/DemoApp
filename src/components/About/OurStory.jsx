@@ -22,7 +22,7 @@ const projects = [
 
 const OurStory = () => {
   return (
-    <div className="bg-[#121212] h-fit pb-10 lg:h-[60vh] pt-20">
+    <div className="bg-[#121212] h-fit pb-10 pt-20">
       <div className="lg:max-w-[90rem] mx-auto px-3 lg:px-8">
         <div className="grid grid-cols-1 md:grid-cols-2 gap-3  lg:grid-cols-3  py-10">
           {projects.map((project) => (

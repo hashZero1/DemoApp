@@ -18,7 +18,7 @@ const CallToAction = () => {
             below to schedule your free call with our dedicated team.
           </p>
           <form
-            className="grid gap-4 grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-2 p-4 md:p-2 xl:p-5 mt-10"
+            className="grid gap-4 grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-2 p-4 md:p-2 xl:p-0 mt-10"
             onSubmit={handleSubmit}
           >
             <input
