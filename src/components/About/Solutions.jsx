@@ -25,7 +25,7 @@ const Solutions = () => {
                 3. Office Suites
               </li>
             </ul>
-            <ul className="py-4 lg:py-0 px-4">
+            <ul className="py-4 lg:py-0 lg:px-4">
               <h2 className="text-2xl lg:text-3xl text-[#9d9d9d] ">
                 Virtual Office
               </h2>
