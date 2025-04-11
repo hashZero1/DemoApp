@@ -1,24 +1,52 @@
-import React from "react";
+import centers from "../../assets/chair.png";
+import office from "../../assets/office.png";
+import rates from "../../assets/rates.png";
+
+const projects = [
+  {
+    icon: centers,
+    title: "16",
+    description: "Centres in Delhi NCR",
+  },
+  {
+    icon: office,
+    title: "10,000+",
+    description: "seats",
+  },
+  {
+    icon: rates,
+    title: "93%",
+    description: "Occupancy rate",
+  },
+];
 
 const OurStory = () => {
   return (
-    <div className="bg-[#121212] px-2 lg:p-2 h-screen lg:h-[60vh] pt-20 flex flex-col items-center justify-center">
-      <div className=" flex flex-col items-center">
-        <div className="flex flex-col lg:flex-row justify-center lg:justify-evenly mx-auto w-full lg:w-[80rem]">
-          <div className="border border-gray-400 my-2 lg:my-0 rounded-lg w-full py-8 lg:w-[24%] text-center bg-gray-200 hover:scale-105 transition-all cursor-pointer hover:bg-red-100">
-            <h2 className="text-4xl font-black py-2">16</h2>
-            <p>Centres in Delhi NCR</p>
-          </div>
-          <div className="border border-gray-400 my-2 lg:my-0 rounded-lg  w-full py-8 lg:w-[26%] text-center bg-gray-200 hover:scale-105 transition-all cursor-pointer hover:bg-red-100">
-            <h2 className="text-4xl font-black py-2">10,000+</h2>
-            <p>seats</p>
-          </div>
-          <div className="border border-gray-400 my-2 lg:my-0 rounded-lg  w-full py-8 lg:w-[26%] text-center bg-gray-200 hover:scale-105 transition-all cursor-pointer hover:bg-red-100">
-            <h2 className="text-4xl font-black py-2">93%</h2>
-            <p>Occupancy rate</p>
-          </div>
+    <div className="bg-[#121212] h-fit pb-10 lg:h-[60vh] pt-20">
+      <div className="lg:max-w-[90rem] mx-auto px-3 lg:px-8">
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-3  lg:grid-cols-3  py-10">
+          {projects.map((project) => (
+            <div
+              key={project?.icon}
+              className="relative group  block p-2 h-full w-full "
+            >
+              <div className="h-full w-full p-4 overflow-hidden bg-gray-50 border border-gray-400 border-opacity-40 text-[#121212] rounded-xl  relative">
+                <div className="relative ">
+                  <div className="p-4 flex flex-col items-center">
+                    <img src={project.icon} className="w-20" />
+                    <h4 className="font-bold text-4xl tracking-wide mt-4">
+                      {project.title}
+                    </h4>
+                    <p className="mt-2  tracking-wide leading-relaxed text-2xl">
+                      {project.description}
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          ))}
         </div>
-        <div className=" pt-20">
+        <div className="flex justify-center mt-10">
           <button className="px-14 py-4 text-xl text-gray-50 bg-red-400 rounded-full hover:bg-red-500">
             Here's our Story
           </button>
