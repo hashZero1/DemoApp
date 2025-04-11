@@ -15,13 +15,13 @@ const Solutions = () => {
               <h2 className="text-2xl lg:text-3xl text-[#9d9d9d] ">
                 Private Office
               </h2>
-              <li className="my-3 text-xl lg:text-sm xl:text-xl">
+              <li className="my-3 text-md sm:text-xl lg:text-sm xl:text-xl">
                 1. Team Rooms
               </li>
-              <li className="my-3 text-xl lg:text-sm xl:text-xl">
+              <li className="my-3 text-md sm:text-xl lg:text-sm xl:text-xl">
                 2. Director Cabins
               </li>
-              <li className="my-3 text-xl lg:text-sm xl:text-xl">
+              <li className="my-3 text-md sm:text-xl lg:text-sm xl:text-xl">
                 3. Office Suites
               </li>
             </ul>
@@ -29,13 +29,13 @@ const Solutions = () => {
               <h2 className="text-2xl lg:text-3xl text-[#9d9d9d] ">
                 Virtual Office
               </h2>
-              <li className="my-3 text-xl lg:text-sm xl:text-xl">
+              <li className="my-3 text-md sm:text-xl lg:text-sm xl:text-xl">
                 1. Business Address Plan
               </li>
-              <li className="my-3 text-xl lg:text-sm xl:text-xl">
+              <li className="my-3 text-md sm:text-xl lg:text-sm xl:text-xl">
                 2. GST Registration Plan
               </li>
-              <li className="my-3 text-xl lg:text-sm xl:text-xl">
+              <li className="my-3 text-md sm:text-xl lg:text-sm xl:text-xl">
                 3. Business Registration Plan
               </li>
             </ul>
@@ -43,11 +43,11 @@ const Solutions = () => {
               <h2 className="text-2xl lg:text-3xl text-[#9d9d9d] ">
                 Flexible Office
               </h2>
-              <li className="my-3 text-xl lg:text-sm xl:text-xl">
+              <li className="my-3 text-md sm:text-xl lg:text-sm xl:text-xl">
                 1. Day Pass Bundles
               </li>
 
-              <li className="my-3 text-xl lg:text-sm xl:text-xl">
+              <li className="my-3 text-md sm:text-xl lg:text-sm xl:text-xl">
                 3. Meeting room
               </li>
             </ul>
