@@ -5,7 +5,7 @@ const AboutProp = () => {
     <div className="min-h-dvh lg:h-[80vh] mx-auto text-gray-50 bg-[#121212]">
       <div className="py-24 max-w-[90rem] mx-auto">
         <h2 className="text-5xl text-center pb-20">About the Property</h2>
-        <div className="flex flex-col lg:flex-row justify-evenly items-center">
+        <div className="flex flex-col md:flex-row justify-evenly items-center">
           <div className="">
             <iframe
               className="w-[400px] lg:w-[600px] h-[300px] lg:h-[400px]"
@@ -17,7 +17,7 @@ const AboutProp = () => {
               tabindex="0"
             />
           </div>
-          <ul className="text-2xl mt-14 lg:mt-0">
+          <ul className="text-2xl mt-14 md:mt-0">
             <li className="py-1">- 628 workstations</li>
             <li className="py-1">- 8 meeting rooms</li>
             <li className="py-1">- Podcast room</li>

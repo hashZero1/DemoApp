@@ -7,6 +7,7 @@ import ImageGrid from "./About/ImageGrid";
 import OurStory from "./About/OurStory";
 import Footer from "./Footer";
 import WhyUs from "./About/WhyUs";
+import CallToAction from "./CallToAction";
 
 const Home = () => {
   return (
@@ -16,8 +17,9 @@ const Home = () => {
       <OurStory />
       <LaunchSection />
       <AboutProp />
-      {/* <ImageGrid /> */}
+      <ImageGrid />
       <WhyUs />
+      <CallToAction />
       <Footer />
     </main>
   );
