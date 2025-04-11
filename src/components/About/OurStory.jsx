@@ -30,7 +30,7 @@ const OurStory = () => {
               key={project?.icon}
               className="relative group  block p-2 h-full w-full "
             >
-              <div className="h-full w-full p-4 overflow-hidden bg-gray-50 border border-gray-400 border-opacity-40 text-[#121212] rounded-xl  relative">
+              <div className="h-full w-full p-4 overflow-hidden bg-gray-50 border border-gray-400 border-opacity-40 text-[#121212] rounded-xl hover:scale-105 relative transition-all duration-400 cursor-pointer">
                 <div className="relative ">
                   <div className="p-4 flex flex-col items-center">
                     <img src={project.icon} className="w-20" />
