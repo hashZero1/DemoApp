@@ -22,24 +22,24 @@ const CallToAction = () => {
             onSubmit={handleSubmit}
           >
             <input
-              className="outline-none py-2 lg:py-0 border-b-2"
+              className="outline-none py-2 lg:py-0 border-b-2 border-[#121212]"
               type="text"
               placeholder="Name"
               required
             />
             <input
-              className="outline-none py-2 lg:py-0 border-b-2"
+              className="outline-none py-2 lg:py-0 border-b-2 border-[#121212]"
               type="email"
               placeholder="Email"
               required
             />
             <input
-              className="outline-none py-2 lg:py-0 border-b-2"
+              className="outline-none py-2 lg:py-0 border-b-2 border-[#121212]"
               type="text"
               placeholder="Phone number"
               required
             />
-            <button className="bg-red-400 text-white px-4 py-2">
+            <button className="bg-red-400 text-white px-4 py-2 hover:bg-red-500 transition-all">
               {" "}
               Schedule a call now
             </button>

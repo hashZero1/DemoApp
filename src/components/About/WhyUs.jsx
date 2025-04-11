@@ -4,7 +4,7 @@ const WhyUs = () => {
   return (
     <div className="mt-32">
       <h1 className="text-4xl lg:text-5xl text-center my-20 px-4 lg:px-0">
-        Why Small Teams Love alt.f coworking:
+        Why Small Teams Love alt.f coworking
       </h1>
       <div className="p-4">
         <div className="px-0 lg:px-6 2xl:px-12 w-full lg:max-w-[90rem] mx-auto">
