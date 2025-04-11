@@ -7,7 +7,7 @@ const Header = () => {
         <img className="w-full" src={logo} />
       </div>
       <div className="text-white text-center">
-        <button className="border px-2 py-2 text-xl hover:bg-red-200/30 transition-all cursor-pointer">
+        <button className="border  rounded-full px-6 py-2 text-xl hover:bg-red-200/30 transition-all cursor-pointer">
           +91 9958500568
         </button>
         <p className="text-sm mt-1">Sales Enquiries Only</p>
