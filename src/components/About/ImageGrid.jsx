@@ -18,7 +18,7 @@ const ImageGrid = () => {
         <div className="">
           <img className="w-full rounded-xl" src={image3} />
         </div>
-        <div className="">
+        <div className="h-[25rem] lg:h-auto">
           <img
             className="w-full h-[100%] object-cover rounded-xl"
             src={image4}

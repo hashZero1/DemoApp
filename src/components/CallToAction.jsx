@@ -5,7 +5,7 @@ const CallToAction = () => {
     e.preventDefault();
   };
   return (
-    <div className="my-20 p-2">
+    <div className="my-20 p-4">
       <div className="flex flex-col lg:flex-row justify-between items-center max-w-[90rem] mx-auto px-10 py-20 h-fit bg-gray-200 rounded-2xl">
         <div className="w-full lg:w-[40%] mx-auto mb-10">
           <h1 className="text-7xl lg:text-[7rem] leading-[5rem] lg:leading-[6.2rem]">

@@ -9,8 +9,10 @@ const AboutProp = () => {
   return (
     <div className="min-h-dvh mx-auto text-gray-50 bg-[#121212]">
       <div className="py-24 max-w-[90rem] mx-auto">
-        <h2 className="text-5xl text-center pb-20">About the Property</h2>
-        <div className="flex flex-col lg:flex-row justify-evenly items-center">
+        <h2 className="text-4xl lg:text-5xl p-2 lg:p-0 text-center pb-20">
+          About the Property
+        </h2>
+        <div className="flex flex-col lg:flex-row justify-evenly items-center lg:mt-20">
           <div className=" mb-10 lg:mb-0">
             <iframe
               className="w-[300px] rounded-xl sm:w-[600px] h-[300px] lg:h-[400px] 2xl:w-[650px] 2xl:h-[500px]"

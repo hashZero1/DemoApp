@@ -46,8 +46,8 @@ const OurStory = () => {
             </div>
           ))}
         </div>
-        <div className="flex justify-center mt-10">
-          <button className="px-14 py-4 text-xl text-gray-50 bg-red-400 rounded-full hover:bg-red-500">
+        <div className="flex justify-center my-10">
+          <button className="px-18 sm:px-24 py-4 text-xl text-gray-50 bg-red-400 rounded-full hover:bg-red-500 transition-all duration-300">
             Here's our Story
           </button>
         </div>

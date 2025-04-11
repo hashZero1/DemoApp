@@ -16,7 +16,7 @@ const AltComponent = () => {
     >
       <div className="max-w-[90rem] mx-auto">
         <Header />
-        <div className="w-full lg:w-[60%] mt-[6rem] md:mt-[10rem]">
+        <div className="w-full lg:w-[60%] mt-[10rem] md:mt-[10rem]">
           <h1 className="text-5xl lg:text-[6.9rem] text-gray-50 ">
             Get the workspace you deserve
           </h1>
@@ -24,7 +24,7 @@ const AltComponent = () => {
             Starting at <br />
             <strong className="">₹8,000</strong>/seat/month
           </p>
-          <button className="text-white text-xl rounded-full border py-4 px-10 sm:px-16 hover:bg-slate-50/50 cursor-pointer transition-all">
+          <button className="text-white  text-xl rounded-full border py-4 px-10 sm:px-16 hover:bg-slate-50/50 cursor-pointer transition-all">
             Grab the offer now
           </button>
         </div>

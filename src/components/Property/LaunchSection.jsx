@@ -2,9 +2,9 @@ import React from "react";
 
 const LaunchSection = () => {
   return (
-    <div className="h-fit my-20 lg:my-44 flex flex-col items-center justify-center mx-auto text-gray-800">
+    <div className="h-fit my-32 lg:my-44 flex flex-col items-center justify-center mx-auto text-gray-800">
       <div className="flex flex-col items-center p-4 lg:p-2">
-        <h1 className="font-semibold text-center text-5xl">
+        <h1 className="font-semibold text-center text-4xl lg:text-5xl">
           Launching in Hyderabad – May 1, 2025
         </h1>
         <p className="text-xl lg:text-2xl mt-20 text-center w-full lg:w-[60rem] ">
