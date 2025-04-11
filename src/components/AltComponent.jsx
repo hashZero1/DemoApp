@@ -16,8 +16,8 @@ const AltComponent = () => {
     >
       <div className="max-w-[90rem] mx-auto">
         <Header />
-        <div className="w-[30rem] mt-[10rem]">
-          <h1 className="text-3xl lg:text-7xl text-gray-50 ">
+        <div className="w-full lg:w-[30rem] mt-[10rem]">
+          <h1 className="text-5xl lg:text-7xl text-gray-50 ">
             Get the workspace you deserve
           </h1>
           <p className=" text-2xl lg:text-xl 2xl:text-3xl text-red-50 mb-8 mt-6 md:mb-4 2xl:mb-10 lg:mt-4 2xl:mt-6">
